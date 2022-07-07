@@ -237,9 +237,9 @@ body {
   font-style: normal;
 }
 
-.header-contact .adress-item + .adress-item {
+/* .header-contact .adress-item + .adress-item {
   margin-left: 50px;
-}
+} */
 
 .adress-item {
   display: flex;
@@ -787,6 +787,7 @@ body {
 
 .backdrop {
   position: fixed;
+  z-index: 1;
   visibility: visible;
   opacity: 1;
   transition: opacity var(--animation-duration) var(--animation-timing);
